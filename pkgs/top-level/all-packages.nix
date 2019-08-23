@@ -864,6 +864,8 @@ in
 
   pass = callPackage ../tools/security/pass { };
 
+  ripasso = callPackage ../tools/security/ripasso { };
+
   passExtensions = recurseIntoAttrs pass.extensions;
 
   asc-key-to-qr-code-gif = callPackage ../tools/security/asc-key-to-qr-code-gif { };

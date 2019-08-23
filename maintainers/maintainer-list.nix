@@ -1037,6 +1037,12 @@
     githubId = 5555066;
     name = "Andrew Cann";
   };
+  capitol = {
+    email = "alexander.kjall@gmail.com";
+    github = "alexanderkjall";
+    githubId = 647710;
+    name = "Alexander Kjäll";
+  };
   carlosdagos = {
     email = "m@cdagostino.io";
     github = "carlosdagos";
