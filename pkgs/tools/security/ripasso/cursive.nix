@@ -9,8 +9,8 @@ buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "cortex";
     repo = "ripasso";
-    sha256 = "1lzim92q26gg225bdpz5k1pk826438ghp3irp9j0x9p7k6qfwjn3";
-    rev = "b64b1d9b697b2246b96db24a9d9ae571eab839aa";
+    sha256 = "1z9kpq1ld0dv3m19z77cz1xivfj53sjgd1z8d7nqbrja2bdkncrm";
+    rev = "4aad4de8b0a46f2c65e9912f9f267da55068f6c3";
   };
 
   cargoSha256 = "0dwaa106vj7jbgshhqpjabsr0zmkg1a5syzky7jcaasvc7r7njwl";
